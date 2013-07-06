@@ -2,9 +2,7 @@
 /**
  * 
  * This config.php file is intended to hold you Constant Contact
- * Credentials.  There are two different ways to implement the 
- * oAuth2 authentication from with in this library.
- * 
+
  *  The first way is from with in session.  This information is not
  *  stored anywhere locally, other than that of the clients browser.
  *  The following code breaks apart the session into the actual 
@@ -22,7 +20,6 @@ if (isset ( $_SESSION ['users'] )) {
 		}
 	}
 }
-
 /**
  * If you already have the credentials, you would not need to store
  * them into the DataStore object.  You can set them here 
